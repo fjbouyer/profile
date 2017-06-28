@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(250,250,250);
+  font-family: 'Poppins';
+}
+
+h1 {
+  font-family:'Anton';
+  font-weight: 500;
+  color: #010A38;
+}
+#img-circle {
+  border: thick white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px rgb(180,180,180);
+  width: 15%;
+  margin: 20px auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.text-align p {
+  text-align: justify;
+}
+
+#btn-red {
+  color: white;
+  background-color: #FF4942;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+#btn-red:hover {
+  background-color:white;
+  color: #FF4942;
+  border: 2px black;
+}
+
+.card-white {
+  background-color: #D4E0EA;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgb(230,230,230)
+}
+
+.list-inline {
+  padding: 0;
+  margin: 0;
+
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  margin: 20px;
+}
+
+.icon {
+  font-size: 200%;
+}
+
+a {
+  color: #4ECA6B;
+}
+
+a:hover {
+  color: #008D49;
+}
+
+.grayscale img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.grayscale img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.rotate img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.rotate img:hover {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+.img-square {
+  padding:2px;
+  border: thin black;
+  border-radius: 1px;
+  width: 150px;
+}
+
+table p {
+  padding: 20px 20px;
+}
+
+h3 {
+  color: #010A38;
+  text-shadow: 1px 1px 1px rgb(150,150,150);
+}
+
+.blur img {
+  -webkit-filter: blur(0);
+  filter: blur(0) grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.blur img:hover {
+  -webkit-filter: blur(3px);
+  filter: blur(3px) grayscale(100%);
+}
+
+.card-blue {
+  background-color: #D4E0EA;
+  color: #010A38;
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgb(230,230,230)
+}
